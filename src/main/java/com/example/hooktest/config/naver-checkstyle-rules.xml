@@ -403,7 +403,7 @@ The following rules in the Naver coding convention cannot be checked by this con
 
     <!--- Suppression -->
     <module name="SuppressionFilter">
-        <property name="file" value="${suppressionFile}"/>
+        <property name="file" value="${suppressionFile}" default="naver-checkstyle-rules.xml"/>
         <property name="optional" value="true"/>
     </module>
 

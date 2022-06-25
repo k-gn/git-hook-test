@@ -8,7 +8,7 @@ public class UserService {
         var user = new User();
         user.setUserid(1L);
         user.setUsername("gyul");
-        user.setAge(26);
+//        user.setAge(26);
         System.out.println(user);
     }
 }
