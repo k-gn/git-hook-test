@@ -8,6 +8,8 @@ public class HookTestApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(HookTestApplication.class, args);
+        UserService userService = new UserService();
+        userService.test();
     }
 
 }
